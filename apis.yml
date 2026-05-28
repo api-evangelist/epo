@@ -1,0 +1,32 @@
+aid: epo
+name: EPO
+description: "European patent search system api"
+url: https://developers.epo.org/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Patent"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Patent
+  - Public APIs
+apis:
+  - name: EPO
+    description: "European patent search system api"
+    humanURL: https://developers.epo.org/
+    baseURL: https://developers.epo.org/
+    tags:
+      - Patent
+    properties:
+      - type: Documentation
+        url: https://developers.epo.org/
+common:
+  - type: Website
+    url: https://developers.epo.org/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
