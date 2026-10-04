@@ -42,7 +42,6 @@ apis:
   - name: EPO
     description: "European patent search system api"
     humanURL: https://developers.epo.org/
-    baseURL: https://developers.epo.org/
     tags:
       - Patents
     tags_raw:
